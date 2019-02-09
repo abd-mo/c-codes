@@ -12,10 +12,13 @@ int main(){
 	printf("\nreverse array elements : \n");
 	reverse(arr);
 for(i=0;i<size;i++)printf(" [%f] ",arr[i]);		
-}reverse(float asd[]){
+}
+reverse(float asd[])
+{
 	int i;
 	float tempt=0;
-	for(i=0;i<size/2;i++){
+	for(i=0;i<size/2;i++)
+	{
 		tempt=asd[i];
 		asd[i]=asd[size-1-i];
 		asd[size-1-i]=tempt;
